@@ -8,8 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 
 public class SearchServ extends HttpServlet {
 
-    private String message;
-
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
 
